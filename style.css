@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 217, 217);
+}
+
+.post {
+    width: 450px;
+    background-color: white;
+    margin: 30px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-section>span {
+    font-size: 12px;
+    color: rgb(182, 178, 178);
+
+}
+
+.bot-section {
+    padding: 15px;
+    border-top: 2px outset;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200&family=Roboto:wght@100&display=swap');
